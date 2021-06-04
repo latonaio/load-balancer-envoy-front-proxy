@@ -8,12 +8,12 @@ load-balancer-envoy-front-proxyは、クライアント側から要求を受取�
 # 動作環境
 load-balancer-envoy-front-proxyは、kubernetes上での運用を前提としています。
 ```
-OS: Linux
-Kubernetes
+- OS: Linux   
+- Kubernetes
 
 最低限スペック
-CPU: 2 core
-memory: 4 GB
+- CPU: Intel64/AMD64/ARM64 2 core
+- memory: 4 GB
 ```
 # 起動方法
 このリポジトリをクローンし、docker imageをbuildしてください。
@@ -30,4 +30,4 @@ $ bash docker-build.sh
 
 
 # システム構造
-![structure_map](images/structure_map.png)
+![structure_map](images/structure_map.jpg)
